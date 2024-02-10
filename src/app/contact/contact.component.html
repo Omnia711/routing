@@ -1,0 +1,29 @@
+<div class="m-auto text-center p-5">
+    <h1 class="pt-4" style="font-weight: bold;">
+        CONATCT SECTION
+    </h1>
+    <div class="ico" style="position: relative;">
+        <i class="fa-solid fa-star"></i>
+        <div class="line ms-3">.</div>
+    </div>
+</div>
+
+<div class="container w-50 m-auto">
+    <div class="mb-5">
+        <label for="name" *ngIf="name" class="mb-2">Name: </label>
+        <input id="name" type="text" class="form-control" placeholder="User Name" [(ngModel)]="name" (input)="checkInput()">
+    </div>
+    <div class="mb-5">
+        <label for="num" *ngIf="age" class="mb-2">Age: </label>
+        <input id="num" type="number" class="form-control" placeholder="User Age" [(ngModel)]="age" (input)="checkInput()">
+    </div>
+    <div class="mb-5">
+        <label for="mail" *ngIf="email" class="mb-2">E-mail: </label>
+        <input id="mail" type="email" class="form-control" placeholder="User E-mail" [(ngModel)]="email" (input)="checkInput()">
+    </div>
+    <div class="mb-4">
+        <label for="password" *ngIf="password" class="mb-2">Password: </label>
+        <input id="password" type="password" class="form-control" placeholder="User Password" [(ngModel)]="password" (input)="checkInput()">
+    </div>
+    <button type="submit" class="btn mb-5" style="background-color: #1ABC9C; color: white;">Send Message</button>
+</div>

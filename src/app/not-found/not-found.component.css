@@ -1,0 +1,15 @@
+.container-fluid {
+    text-align: center;
+    background-color: #e1e1e1b3;
+    height: 500px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: red;  }
+  
+  p {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
